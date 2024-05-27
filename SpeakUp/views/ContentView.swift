@@ -25,7 +25,6 @@ struct ContentView: View {
                     
                     VStack {
                         if animateView {
-                            // game title (SpeakUp)
                             VStack {
                                 Text("SpeakUp")
                                     .font(.custom(Constants.ofRegular, size: geo.size.height * 0.15))

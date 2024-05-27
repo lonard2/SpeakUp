@@ -15,7 +15,7 @@ class Game: ObservableObject {
     var allQuestions: [Question] = []
     
     var filteredLevels: [LevelInfo] = []
-    var filteredQuestions: [LevelInfo] = []
+    var filteredQuestions: [Question]? = []
     private var answeredQuestions: [Int] = []
     
     var currentQuestion = Constants.sampleQuestion
@@ -36,38 +36,33 @@ class Game: ObservableObject {
         }
     }
     
-//    func filterQuestions(to specificLevel : Int) {
-//        filteredQuestions = allLevels.filter { level in
-//            Int(level.name) == specificLevel
-//        }
-//    }
+    func filterQuestions(to specificLevel : Int) {
+        filteredQuestions = allLevels.filter { level in
+            Int(level.name) == specificLevel
+        }.first?.questions
+    }
     
     func newQuestion() {
-        if filteredQuestions.isEmpty {
+        if filteredQuestions != nil {
             return
         }
         
-        if answeredQuestions.count == filteredQuestions.count {
+        if answeredQuestions.count == filteredQuestions?.count {
             answeredQuestions = []
         }
         
-        var potentialQuestion = filteredQuestions.randomElement()!
+        var potentialQuestion = filteredQuestions?.randomElement()!
         
-//        while answeredQuestions.contains(potentialQuestion?.id) {
-//            potentialQuestion = filteredQuestions.randomElement()!
-//        }
-//        
-//        currentQuestion = potentialQuestion
+        while answeredQuestions.contains(potentialQuestion?.id ?? 0) {
+            potentialQuestion = filteredQuestions?.randomElement()!
+        }
         
-//        questionScore = 5
+        currentQuestion = potentialQuestion!
     }
     
     func correct() {
         answeredQuestions.append(currentQuestion.id)
-        
-//        withAnimation {
-//            gameScore += questionScore
-//        }
+    
     }
     
     private func decodeLanguages() {

@@ -59,6 +59,10 @@ struct LevelSelectView: View {
                                     VStack {
                                         Button {
                                             showGameplay.toggle()
+                                            game.filterQuestions(to: Int(level.name)!)
+                                            game.newQuestion()
+                                            
+                                            Helper.sharedHelper.playSecondBackgroundAudio()
                                             Helper.sharedHelper.playClickSfx()
                                         } label: {
                                             VStack {

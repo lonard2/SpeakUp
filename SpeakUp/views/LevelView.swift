@@ -11,6 +11,8 @@ struct LevelView: View {
     @EnvironmentObject private var game: Game
     @State private var backToLevelSelect = false
     
+    @State private var recordingUnderway = false
+    
     var body: some View {
         
         GeometryReader { geo in
@@ -44,7 +46,7 @@ struct LevelView: View {
                             }
                             
                             HStack {
-                                Text("Level" + game.filteredLevels[0].name)
+                                Text("Level " + game.filteredLevels[0].name)
                                     .font(.custom(Constants.ofMedium, size: geo.size.height * 0.05))
                                     .padding(geo.size.height * 0.05)
                                 
@@ -65,16 +67,36 @@ struct LevelView: View {
                         
                         
                         HStack {
-                            LottieView(lottieFile: "animation_wave", speed: 0, height: geo.size.height/1.4, width: geo.size.width/1.2)
-                            LottieView(lottieFile: "animation_wave", speed: 0, height: geo.size.height/1.4, width: geo.size.width/1.2)
-                                .offset(x: -4.5)
+                            if recordingUnderway {
+                                LottieView(lottieFile: "animation_wave", speed: 0.5, height: geo.size.height/1.4, width: geo.size.width/1.2)
+                                LottieView(lottieFile: "animation_wave", speed: 0.5, height: geo.size.height/1.4, width: geo.size.width/1.2)
+                                    .offset(x: -4.5)
+                            } else {
+                                LottieView(lottieFile: "animation_wave", speed: 0, height: geo.size.height/1.4, width: geo.size.width/1.2)
+                                LottieView(lottieFile: "animation_wave", speed: 0, height: geo.size.height/1.4, width: geo.size.width/1.2)
+                                    .offset(x: -4.5)
+                            }
+
                         }
                         .offset(y: -35)
+                        
+                        Spacer()
+                        
+                        Button {
+                            recordingUnderway.toggle()
+                        } label: {
+                            Circle()
+                                .frame(width: geo.size.width * 0.12, height: geo.size.height * 0.12)
+                                .foregroundColor(.red)
+                                .overlay {
+                                    Image(systemName: "mic.fill")
+                                        .font(.system(size: geo.size.height * 0.05))
+                                        .tint(.white)
+                                }
+                                .padding(geo.size.height * 0.05)
+                        }
+                        .buttonStyle(PlainButtonStyle())
                     }
-                    
- 
-                    
-                    
                 }
                 .frame(width: geo.size.width, height: geo.size.height)
             }
