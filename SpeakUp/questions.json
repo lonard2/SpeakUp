@@ -1,0 +1,374 @@
+[
+  {
+    "id": 1,
+    "name": "1",
+    "language": 1,
+    "multiplier": 1,
+    "countdown": 30,
+    "gold": 6000,
+    "silver": 5000,
+    "bronze": 3500,
+    "status": false,
+    "questions": [
+      {
+        "id": 1,
+        "type": 1,
+        "prompt": "Say 'I am a learner' with happy emotion.",
+        "sentence": "I am a learner",
+        "emotion": 1,
+        "score": 500
+      },
+      {
+        "id": 2,
+        "type": 1,
+        "prompt": "Say 'Why am I here?' with angry emotion.",
+        "sentence": "Why am I here?",
+        "emotion": 2,
+        "score": 500
+      },
+      {
+        "id": 3,
+        "type": 1,
+        "prompt": "Say 'How should I learn this?' with angry emotion.",
+        "sentence": "How should I learn this?",
+        "emotion": 2,
+        "score": 750
+      },
+      {
+        "id": 4,
+        "type": 1,
+        "prompt": "Say 'I couldn't say this thing' with sad emotion.",
+        "sentence": "I am a learner",
+        "emotion": 3,
+        "score": 750
+      },
+      {
+        "id": 5,
+        "type": 1,
+        "prompt": "Say 'This is an apple' with happy emotion.",
+        "sentence": "This is an apple",
+        "emotion": 1,
+        "score": 500
+      },
+      {
+        "id": 6,
+        "type": 1,
+        "prompt": "Say 'I going to the office' with fearful emotion.",
+        "sentence": "I going to the office",
+        "emotion": 4,
+        "score": 500
+      },
+      {
+        "id": 7,
+        "type": 1,
+        "prompt": "Say 'You are eating a banana' with disgusted emotion.",
+        "sentence": "You are eating a banana",
+        "emotion": 5,
+        "score": 500
+      },
+      {
+        "id": 8,
+        "type": 1,
+        "prompt": "Say 'I want to drink water' with sad emotion.",
+        "sentence": "I want to drink water",
+        "emotion": 3,
+        "score": 500
+      },
+      {
+        "id": 9,
+        "type": 1,
+        "prompt": "Say 'I could have this one' with surprised emotion.",
+        "sentence": "I could have this one",
+        "emotion": 6,
+        "score": 500
+      },
+      {
+        "id": 10,
+        "type": 1,
+        "prompt": "Say 'I am getting to learn new things' with fearful emotion.",
+        "sentence": "I am getting to learn new things",
+        "emotion": 4,
+        "score": 750
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "2",
+    "language": 1,
+    "multiplier": 1.15,
+    "countdown": 30,
+    "gold": 6500,
+    "silver": 5750,
+    "bronze": 4000,
+    "status": false,
+    "questions": [
+      {
+        "id": 1,
+        "type": 1,
+        "prompt": "Say 'Getting here is difficult' with sad emotion.",
+        "sentence": "Getting here is difficult",
+        "emotion": 3,
+        "score": 500
+      },
+      {
+        "id": 2,
+        "type": 1,
+        "prompt": "Say 'Are you sure with deciding the decision?' with fearful emotion.",
+        "sentence": "Are you sure with deciding the decision?",
+        "emotion": 4,
+        "score": 750
+      },
+      {
+        "id": 3,
+        "type": 1,
+        "prompt": "Say 'Consuming new contents are useful for influencing your opinion about something' with happy emotion.",
+        "sentence": "Consuming new contents are useful for influencing your opinion about something",
+        "emotion": 1,
+        "score": 1000
+      },
+      {
+        "id": 4,
+        "type": 1,
+        "prompt": "Say 'Soccer is an universal sport' with angry emotion.",
+        "sentence": "Soccer is an universal sport",
+        "emotion": 2,
+        "score": 500
+      },
+      {
+        "id": 5,
+        "type": 1,
+        "prompt": "Say 'Introducing the new application from my company' with sad emotion.",
+        "sentence": "Introducing the new application from my company",
+        "emotion": 3,
+        "score": 750
+      },
+      {
+        "id": 6,
+        "type": 1,
+        "prompt": "Say 'How do you get to the majestic palace from here?' with surprised emotion.",
+        "sentence": "How do you get to the majestic palace from here?",
+        "emotion": 6,
+        "score": 750
+      },
+      {
+        "id": 7,
+        "type": 1,
+        "prompt": "Say 'Sir, excuse me for my pardon' with surprised emotion.",
+        "sentence": "Sir, excuse me for my pardon",
+        "emotion": 6,
+        "score": 500
+      },
+      {
+        "id": 8,
+        "type": 1,
+        "prompt": "Say 'Let me get out from here!' with fearful emotion.",
+        "sentence": "Let me get out from here!",
+        "emotion": 4,
+        "score": 500
+      },
+      {
+        "id": 9,
+        "type": 1,
+        "prompt": "Say 'Michael, how do you think about this topic?' with sad emotion.",
+        "sentence": "Michael, how do you think about this topic?",
+        "emotion": 3,
+        "score": 750
+      },
+      {
+        "id": 10,
+        "type": 1,
+        "prompt": "Say 'Don't let your energy exhausted' with angry emotion.",
+        "sentence": "Don't let your energy exhausted",
+        "emotion": 2,
+        "score": 500
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "1",
+    "language": 2,
+    "multiplier": 1,
+    "countdown": 30,
+    "gold": 6000,
+    "silver": 5000,
+    "bronze": 3500,
+    "status": false,
+    "questions": [
+      {
+        "id": 1,
+        "type": 1,
+        "prompt": "Say 'こんにちは' with happy emotion.",
+        "sentence": "こんにちは",
+        "emotion": 1,
+        "score": 500
+      },
+      {
+        "id": 2,
+        "type": 1,
+        "prompt": "Say 'わたしはかねこです' with happy emotion.",
+        "sentence": "わたしはかねこです",
+        "emotion": 1,
+        "score": 500
+      },
+      {
+        "id": 3,
+        "type": 1,
+        "prompt": "Say 'なぜ？' with angry emotion.",
+        "sentence": "なぜ？",
+        "emotion": 2,
+        "score": 500
+      },
+      {
+        "id": 4,
+        "type": 1,
+        "prompt": "Say 'おやすみなさい、みんなさま' with sad emotion.",
+        "sentence": "おやすみなさい、みんなさま",
+        "emotion": 3,
+        "score": 750
+      },
+      {
+        "id": 5,
+        "type": 1,
+        "prompt": "Say 'これはパソコンだ' with happy emotion.",
+        "sentence": "これはパソコンだ'",
+        "emotion": 1,
+        "score": 500
+      },
+      {
+        "id": 6,
+        "type": 1,
+        "prompt": "Say 'これからがんばって' with fearful emotion.",
+        "sentence": "これからがんばって",
+        "emotion": 4,
+        "score": 500
+      },
+      {
+        "id": 7,
+        "type": 1,
+        "prompt": "Say 'このともだちはヤサひい' with disgusted emotion.",
+        "sentence": "このともだちはヤサひい",
+        "emotion": 5,
+        "score": 500
+      },
+      {
+        "id": 8,
+        "type": 1,
+        "prompt": "Say 'みずを飲みたい' with sad emotion.",
+        "sentence": "みずを飲みたい",
+        "emotion": 3,
+        "score": 500
+      },
+      {
+        "id": 9,
+        "type": 1,
+        "prompt": "Say 'すみません、すみません' with surprised emotion.",
+        "sentence": "すみません、すみません",
+        "emotion": 6,
+        "score": 500
+      },
+      {
+        "id": 10,
+        "type": 1,
+        "prompt": "Say 'このほんはみどりだ' with fearful emotion.",
+        "sentence": "このほんはみどりだ",
+        "emotion": 4,
+        "score": 750
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "2",
+    "language": 2,
+    "multiplier": 1.15,
+    "countdown": 30,
+    "gold": 6500,
+    "silver": 5750,
+    "bronze": 4000,
+    "status": false,
+    "questions": [
+      {
+        "id": 1,
+        "type": 1,
+        "prompt": "Say 'そのおちゃはまずいです' with sad emotion.",
+        "sentence": "そのおちゃはまずいです",
+        "emotion": 3,
+        "score": 500
+      },
+      {
+        "id": 2,
+        "type": 1,
+        "prompt": "Say 'さすがはやさかさん、このドアがこわれたね' with fearful emotion.",
+        "sentence": "さすがはやさかさん、このドアがこわれたね",
+        "emotion": 4,
+        "score": 750
+      },
+      {
+        "id": 3,
+        "type": 1,
+        "prompt": "Say 'とうきょうは世界中のまちだ' with happy emotion.",
+        "sentence": "とうきょうは世界中のまちだ'",
+        "emotion": 1,
+        "score": 1000
+      },
+      {
+        "id": 4,
+        "type": 1,
+        "prompt": "Say 'バドミントンはながいけどたのしいです' with angry emotion.",
+        "sentence": "バドミントンはながいけどたのしいです",
+        "emotion": 2,
+        "score": 500
+      },
+      {
+        "id": 5,
+        "type": 1,
+        "prompt": "Say 'はい、ケヴィンです' with sad emotion.",
+        "sentence": "はい、ケヴィンです",
+        "emotion": 3,
+        "score": 750
+      },
+      {
+        "id": 6,
+        "type": 1,
+        "prompt": "Say 'おめでとうございます！' with surprised emotion.",
+        "sentence": "おめでとうございます！",
+        "emotion": 6,
+        "score": 750
+      },
+      {
+        "id": 7,
+        "type": 1,
+        "prompt": "Say 'おきゃくさま、おおきないすがいない' with surprised emotion.",
+        "sentence": "おきゃくさま、おおきないすがいない",
+        "emotion": 6,
+        "score": 500
+      },
+      {
+        "id": 8,
+        "type": 1,
+        "prompt": "Say 'こちらこそありがとう' with fearful emotion.",
+        "sentence": "こちらこそありがとう",
+        "emotion": 4,
+        "score": 500
+      },
+      {
+        "id": 9,
+        "type": 1,
+        "prompt": "Say 'このかばんのなかはなに？' with sad emotion.",
+        "sentence": "このかばんのなかはなに？",
+        "emotion": 3,
+        "score": 750
+      },
+      {
+        "id": 10,
+        "type": 1,
+        "prompt": "Say 'むずかしいけどプロジェクトがおわりました' with angry emotion.",
+        "sentence": "むずかしいけどプロジェクトがおわりました",
+        "emotion": 2,
+        "score": 500
+      }
+    ]
+  }
+]

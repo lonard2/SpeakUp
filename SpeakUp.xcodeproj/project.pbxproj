@@ -7,19 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E972072A2BFCF676004C450D /* LanguageSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97207292BFCF676004C450D /* LanguageSelectView.swift */; };
+		E972072C2BFCF67F004C450D /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972072B2BFCF67F004C450D /* LevelView.swift */; };
+		E972072E2BFCF68D004C450D /* LevelSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E972072D2BFCF68D004C450D /* LevelSelectView.swift */; };
+		E97207362BFCF799004C450D /* LevelInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97207352BFCF799004C450D /* LevelInfo.swift */; };
+		E97207382BFCF7F3004C450D /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97207372BFCF7F3004C450D /* Language.swift */; };
+		E972073A2BFCF938004C450D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97207392BFCF938004C450D /* Helper.swift */; };
 		E9A33FD22BFB61480047F2EF /* SpeakUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A33FD12BFB61480047F2EF /* SpeakUpApp.swift */; };
 		E9A33FD42BFB61480047F2EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A33FD32BFB61480047F2EF /* ContentView.swift */; };
 		E9A33FD62BFB614A0047F2EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FD52BFB614A0047F2EF /* Assets.xcassets */; };
 		E9A33FD92BFB614A0047F2EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FD82BFB614A0047F2EF /* Preview Assets.xcassets */; };
+		E9A33FE22BFB61770047F2EF /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E9A33FE12BFB61770047F2EF /* Lottie */; };
+		E9A33FF32BFB63040047F2EF /* overpass-heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FE32BFB63040047F2EF /* overpass-heavy.otf */; };
+		E9A33FF42BFB63040047F2EF /* overpass-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FE42BFB63040047F2EF /* overpass-italic.otf */; };
+		E9A33FF52BFB63040047F2EF /* overpass-semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FE52BFB63040047F2EF /* overpass-semibold.otf */; };
+		E9A33FF62BFB63040047F2EF /* overpass-thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FE62BFB63040047F2EF /* overpass-thin.otf */; };
+		E9A33FF72BFB63040047F2EF /* overpass-heavy-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FE72BFB63040047F2EF /* overpass-heavy-italic.otf */; };
+		E9A33FF82BFB63040047F2EF /* overpass-extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FE82BFB63040047F2EF /* overpass-extrabold.otf */; };
+		E9A33FF92BFB63040047F2EF /* overpass-semibold-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FE92BFB63040047F2EF /* overpass-semibold-italic.otf */; };
+		E9A33FFA2BFB63040047F2EF /* overpass-extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FEA2BFB63040047F2EF /* overpass-extralight.otf */; };
+		E9A33FFB2BFB63040047F2EF /* overpass-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FEB2BFB63040047F2EF /* overpass-bold.otf */; };
+		E9A33FFC2BFB63040047F2EF /* overpass-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FEC2BFB63040047F2EF /* overpass-light.otf */; };
+		E9A33FFD2BFB63040047F2EF /* overpass-extralight-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FED2BFB63040047F2EF /* overpass-extralight-italic.otf */; };
+		E9A33FFE2BFB63040047F2EF /* overpass-bold-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FEE2BFB63040047F2EF /* overpass-bold-italic.otf */; };
+		E9A33FFF2BFB63040047F2EF /* overpass-thin-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FEF2BFB63040047F2EF /* overpass-thin-italic.otf */; };
+		E9A340002BFB63040047F2EF /* overpass-light-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FF02BFB63040047F2EF /* overpass-light-italic.otf */; };
+		E9A340012BFB63040047F2EF /* overpass-extrabold-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FF12BFB63040047F2EF /* overpass-extrabold-italic.otf */; };
+		E9A340022BFB63040047F2EF /* overpass-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A33FF22BFB63040047F2EF /* overpass-regular.otf */; };
+		E9A340082BFB631D0047F2EF /* overpass-mono-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A340032BFB631D0047F2EF /* overpass-mono-bold.otf */; };
+		E9A340092BFB631D0047F2EF /* overpass-mono-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A340042BFB631D0047F2EF /* overpass-mono-light.otf */; };
+		E9A3400A2BFB631D0047F2EF /* overpass-mono-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A340052BFB631D0047F2EF /* overpass-mono-regular.otf */; };
+		E9A3400B2BFB631D0047F2EF /* overpass-mono-semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9A340062BFB631D0047F2EF /* overpass-mono-semibold.otf */; };
+		E9AA8F7A2BFCA64E009003E5 /* Outfit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9AA8F722BFCA64E009003E5 /* Outfit-SemiBold.ttf */; };
+		E9AA8F7B2BFCA64E009003E5 /* Outfit-Light1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9AA8F732BFCA64E009003E5 /* Outfit-Light1.ttf */; };
+		E9AA8F7C2BFCA64E009003E5 /* Outfit-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9AA8F742BFCA64E009003E5 /* Outfit-Black.ttf */; };
+		E9AA8F7D2BFCA64E009003E5 /* Outfit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9AA8F752BFCA64E009003E5 /* Outfit-Regular.ttf */; };
+		E9AA8F7E2BFCA64E009003E5 /* Outfit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9AA8F762BFCA64E009003E5 /* Outfit-Medium.ttf */; };
+		E9AA8F7F2BFCA64E009003E5 /* Outfit-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9AA8F772BFCA64E009003E5 /* Outfit-ExtraBold.ttf */; };
+		E9AA8F802BFCA64E009003E5 /* Outfit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9AA8F782BFCA64E009003E5 /* Outfit-Bold.ttf */; };
+		E9AA8F812BFCA64E009003E5 /* Outfit-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9AA8F792BFCA64E009003E5 /* Outfit-ExtraLight.ttf */; };
+		E9AA8F832BFCA7D8009003E5 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA8F822BFCA7D8009003E5 /* LottieView.swift */; };
+		E9AA8F882BFCACE3009003E5 /* animation_wave.json in Resources */ = {isa = PBXBuildFile; fileRef = E9AA8F842BFCACE3009003E5 /* animation_wave.json */; };
+		E9AA8F892BFCACE3009003E5 /* atmospheric-soundscape-152493.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9AA8F852BFCACE3009003E5 /* atmospheric-soundscape-152493.mp3 */; };
+		E9AA8F8A2BFCACE3009003E5 /* animation_wave_two.json in Resources */ = {isa = PBXBuildFile; fileRef = E9AA8F862BFCACE3009003E5 /* animation_wave_two.json */; };
+		E9AA8F8B2BFCACE3009003E5 /* tense-dark-background-199278.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9AA8F872BFCACE3009003E5 /* tense-dark-background-199278.mp3 */; };
+		E9B5906D2BFD8CC0003E29DB /* SentimentSoundModel.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = E9B5906C2BFD8CC0003E29DB /* SentimentSoundModel.mlpackage */; };
+		E9C315F42C03165F00D59318 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C315F32C03165F00D59318 /* GameViewModel.swift */; };
+		E9C315F72C0336EA00D59318 /* language.json in Resources */ = {isa = PBXBuildFile; fileRef = E9C315F52C0336EA00D59318 /* language.json */; };
+		E9C315F82C0336EA00D59318 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = E9C315F62C0336EA00D59318 /* questions.json */; };
+		E9C315FA2C033B2E00D59318 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C315F92C033B2E00D59318 /* Constants.swift */; };
+		E9C315FC2C033DB200D59318 /* mouse-click-153941.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9C315FB2C033DB200D59318 /* mouse-click-153941.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E97207292BFCF676004C450D /* LanguageSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectView.swift; sourceTree = "<group>"; };
+		E972072B2BFCF67F004C450D /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
+		E972072D2BFCF68D004C450D /* LevelSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectView.swift; sourceTree = "<group>"; };
+		E97207352BFCF799004C450D /* LevelInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelInfo.swift; sourceTree = "<group>"; };
+		E97207372BFCF7F3004C450D /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		E97207392BFCF938004C450D /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		E9A33FCE2BFB61480047F2EF /* SpeakUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A33FD12BFB61480047F2EF /* SpeakUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakUpApp.swift; sourceTree = "<group>"; };
 		E9A33FD32BFB61480047F2EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9A33FD52BFB614A0047F2EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9A33FD82BFB614A0047F2EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9A33FDA2BFB614A0047F2EF /* SpeakUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpeakUp.entitlements; sourceTree = "<group>"; };
+		E9A33FE32BFB63040047F2EF /* overpass-heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-heavy.otf"; sourceTree = "<group>"; };
+		E9A33FE42BFB63040047F2EF /* overpass-italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-italic.otf"; sourceTree = "<group>"; };
+		E9A33FE52BFB63040047F2EF /* overpass-semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-semibold.otf"; sourceTree = "<group>"; };
+		E9A33FE62BFB63040047F2EF /* overpass-thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-thin.otf"; sourceTree = "<group>"; };
+		E9A33FE72BFB63040047F2EF /* overpass-heavy-italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-heavy-italic.otf"; sourceTree = "<group>"; };
+		E9A33FE82BFB63040047F2EF /* overpass-extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-extrabold.otf"; sourceTree = "<group>"; };
+		E9A33FE92BFB63040047F2EF /* overpass-semibold-italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-semibold-italic.otf"; sourceTree = "<group>"; };
+		E9A33FEA2BFB63040047F2EF /* overpass-extralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-extralight.otf"; sourceTree = "<group>"; };
+		E9A33FEB2BFB63040047F2EF /* overpass-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-bold.otf"; sourceTree = "<group>"; };
+		E9A33FEC2BFB63040047F2EF /* overpass-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-light.otf"; sourceTree = "<group>"; };
+		E9A33FED2BFB63040047F2EF /* overpass-extralight-italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-extralight-italic.otf"; sourceTree = "<group>"; };
+		E9A33FEE2BFB63040047F2EF /* overpass-bold-italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-bold-italic.otf"; sourceTree = "<group>"; };
+		E9A33FEF2BFB63040047F2EF /* overpass-thin-italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-thin-italic.otf"; sourceTree = "<group>"; };
+		E9A33FF02BFB63040047F2EF /* overpass-light-italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-light-italic.otf"; sourceTree = "<group>"; };
+		E9A33FF12BFB63040047F2EF /* overpass-extrabold-italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-extrabold-italic.otf"; sourceTree = "<group>"; };
+		E9A33FF22BFB63040047F2EF /* overpass-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-regular.otf"; sourceTree = "<group>"; };
+		E9A340032BFB631D0047F2EF /* overpass-mono-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-mono-bold.otf"; sourceTree = "<group>"; };
+		E9A340042BFB631D0047F2EF /* overpass-mono-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-mono-light.otf"; sourceTree = "<group>"; };
+		E9A340052BFB631D0047F2EF /* overpass-mono-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-mono-regular.otf"; sourceTree = "<group>"; };
+		E9A340062BFB631D0047F2EF /* overpass-mono-semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "overpass-mono-semibold.otf"; sourceTree = "<group>"; };
+		E9AA8F712BFC85D6009003E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E9AA8F722BFCA64E009003E5 /* Outfit-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-SemiBold.ttf"; sourceTree = "<group>"; };
+		E9AA8F732BFCA64E009003E5 /* Outfit-Light1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-Light1.ttf"; sourceTree = "<group>"; };
+		E9AA8F742BFCA64E009003E5 /* Outfit-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-Black.ttf"; sourceTree = "<group>"; };
+		E9AA8F752BFCA64E009003E5 /* Outfit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-Regular.ttf"; sourceTree = "<group>"; };
+		E9AA8F762BFCA64E009003E5 /* Outfit-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-Medium.ttf"; sourceTree = "<group>"; };
+		E9AA8F772BFCA64E009003E5 /* Outfit-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E9AA8F782BFCA64E009003E5 /* Outfit-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-Bold.ttf"; sourceTree = "<group>"; };
+		E9AA8F792BFCA64E009003E5 /* Outfit-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E9AA8F822BFCA7D8009003E5 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		E9AA8F842BFCACE3009003E5 /* animation_wave.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_wave.json; sourceTree = "<group>"; };
+		E9AA8F852BFCACE3009003E5 /* atmospheric-soundscape-152493.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "atmospheric-soundscape-152493.mp3"; sourceTree = "<group>"; };
+		E9AA8F862BFCACE3009003E5 /* animation_wave_two.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_wave_two.json; sourceTree = "<group>"; };
+		E9AA8F872BFCACE3009003E5 /* tense-dark-background-199278.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tense-dark-background-199278.mp3"; sourceTree = "<group>"; };
+		E9B5906C2BFD8CC0003E29DB /* SentimentSoundModel.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = SentimentSoundModel.mlpackage; sourceTree = "<group>"; };
+		E9C315F32C03165F00D59318 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		E9C315F52C0336EA00D59318 /* language.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = language.json; sourceTree = "<group>"; };
+		E9C315F62C0336EA00D59318 /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		E9C315F92C033B2E00D59318 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E9C315FB2C033DB200D59318 /* mouse-click-153941.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mouse-click-153941.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9A33FE22BFB61770047F2EF /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,11 +145,30 @@
 		E9A33FD02BFB61480047F2EF /* SpeakUp */ = {
 			isa = PBXGroup;
 			children = (
+				E9B5906A2BFD8C59003E29DB /* models */,
+				E9AA8F862BFCACE3009003E5 /* animation_wave_two.json */,
+				E9AA8F842BFCACE3009003E5 /* animation_wave.json */,
+				E9AA8F852BFCACE3009003E5 /* atmospheric-soundscape-152493.mp3 */,
+				E9AA8F872BFCACE3009003E5 /* tense-dark-background-199278.mp3 */,
+				E9C315FB2C033DB200D59318 /* mouse-click-153941.mp3 */,
+				E9C315F62C0336EA00D59318 /* questions.json */,
+				E9C315F52C0336EA00D59318 /* language.json */,
+				E9AA8F712BFC85D6009003E5 /* Info.plist */,
+				E9A3401E2BFB63640047F2EF /* fonts */,
 				E9A33FD12BFB61480047F2EF /* SpeakUpApp.swift */,
 				E9A33FD32BFB61480047F2EF /* ContentView.swift */,
 				E9A33FD52BFB614A0047F2EF /* Assets.xcassets */,
 				E9A33FDA2BFB614A0047F2EF /* SpeakUp.entitlements */,
 				E9A33FD72BFB614A0047F2EF /* Preview Content */,
+				E9AA8F822BFCA7D8009003E5 /* LottieView.swift */,
+				E97207292BFCF676004C450D /* LanguageSelectView.swift */,
+				E972072B2BFCF67F004C450D /* LevelView.swift */,
+				E972072D2BFCF68D004C450D /* LevelSelectView.swift */,
+				E97207352BFCF799004C450D /* LevelInfo.swift */,
+				E97207372BFCF7F3004C450D /* Language.swift */,
+				E97207392BFCF938004C450D /* Helper.swift */,
+				E9C315F32C03165F00D59318 /* GameViewModel.swift */,
+				E9C315F92C033B2E00D59318 /* Constants.swift */,
 			);
 			path = SpeakUp;
 			sourceTree = "<group>";
@@ -67,6 +179,49 @@
 				E9A33FD82BFB614A0047F2EF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9A3401E2BFB63640047F2EF /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E9AA8F742BFCA64E009003E5 /* Outfit-Black.ttf */,
+				E9AA8F782BFCA64E009003E5 /* Outfit-Bold.ttf */,
+				E9AA8F772BFCA64E009003E5 /* Outfit-ExtraBold.ttf */,
+				E9AA8F792BFCA64E009003E5 /* Outfit-ExtraLight.ttf */,
+				E9AA8F732BFCA64E009003E5 /* Outfit-Light1.ttf */,
+				E9AA8F762BFCA64E009003E5 /* Outfit-Medium.ttf */,
+				E9AA8F752BFCA64E009003E5 /* Outfit-Regular.ttf */,
+				E9AA8F722BFCA64E009003E5 /* Outfit-SemiBold.ttf */,
+				E9A340032BFB631D0047F2EF /* overpass-mono-bold.otf */,
+				E9A340042BFB631D0047F2EF /* overpass-mono-light.otf */,
+				E9A340052BFB631D0047F2EF /* overpass-mono-regular.otf */,
+				E9A340062BFB631D0047F2EF /* overpass-mono-semibold.otf */,
+				E9A33FEE2BFB63040047F2EF /* overpass-bold-italic.otf */,
+				E9A33FEB2BFB63040047F2EF /* overpass-bold.otf */,
+				E9A33FF12BFB63040047F2EF /* overpass-extrabold-italic.otf */,
+				E9A33FE82BFB63040047F2EF /* overpass-extrabold.otf */,
+				E9A33FED2BFB63040047F2EF /* overpass-extralight-italic.otf */,
+				E9A33FEA2BFB63040047F2EF /* overpass-extralight.otf */,
+				E9A33FE72BFB63040047F2EF /* overpass-heavy-italic.otf */,
+				E9A33FE32BFB63040047F2EF /* overpass-heavy.otf */,
+				E9A33FE42BFB63040047F2EF /* overpass-italic.otf */,
+				E9A33FF02BFB63040047F2EF /* overpass-light-italic.otf */,
+				E9A33FEC2BFB63040047F2EF /* overpass-light.otf */,
+				E9A33FF22BFB63040047F2EF /* overpass-regular.otf */,
+				E9A33FE92BFB63040047F2EF /* overpass-semibold-italic.otf */,
+				E9A33FE52BFB63040047F2EF /* overpass-semibold.otf */,
+				E9A33FEF2BFB63040047F2EF /* overpass-thin-italic.otf */,
+				E9A33FE62BFB63040047F2EF /* overpass-thin.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		E9B5906A2BFD8C59003E29DB /* models */ = {
+			isa = PBXGroup;
+			children = (
+				E9B5906C2BFD8CC0003E29DB /* SentimentSoundModel.mlpackage */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +240,9 @@
 			dependencies = (
 			);
 			name = SpeakUp;
+			packageProductDependencies = (
+				E9A33FE12BFB61770047F2EF /* Lottie */,
+			);
 			productName = SpeakUp;
 			productReference = E9A33FCE2BFB61480047F2EF /* SpeakUp.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +271,9 @@
 				Base,
 			);
 			mainGroup = E9A33FC52BFB61480047F2EF;
+			packageReferences = (
+				E9A33FE02BFB61770047F2EF /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = E9A33FCF2BFB61480047F2EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,8 +288,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9A3400A2BFB631D0047F2EF /* overpass-mono-regular.otf in Resources */,
+				E9AA8F812BFCA64E009003E5 /* Outfit-ExtraLight.ttf in Resources */,
+				E9AA8F802BFCA64E009003E5 /* Outfit-Bold.ttf in Resources */,
+				E9A33FF42BFB63040047F2EF /* overpass-italic.otf in Resources */,
+				E9A33FFC2BFB63040047F2EF /* overpass-light.otf in Resources */,
+				E9A33FF32BFB63040047F2EF /* overpass-heavy.otf in Resources */,
+				E9AA8F882BFCACE3009003E5 /* animation_wave.json in Resources */,
+				E9AA8F7D2BFCA64E009003E5 /* Outfit-Regular.ttf in Resources */,
+				E9AA8F8B2BFCACE3009003E5 /* tense-dark-background-199278.mp3 in Resources */,
+				E9A33FF92BFB63040047F2EF /* overpass-semibold-italic.otf in Resources */,
+				E9A33FFD2BFB63040047F2EF /* overpass-extralight-italic.otf in Resources */,
+				E9AA8F7B2BFCA64E009003E5 /* Outfit-Light1.ttf in Resources */,
+				E9A33FFF2BFB63040047F2EF /* overpass-thin-italic.otf in Resources */,
+				E9A33FFE2BFB63040047F2EF /* overpass-bold-italic.otf in Resources */,
+				E9A33FF82BFB63040047F2EF /* overpass-extrabold.otf in Resources */,
+				E9A340092BFB631D0047F2EF /* overpass-mono-light.otf in Resources */,
+				E9AA8F892BFCACE3009003E5 /* atmospheric-soundscape-152493.mp3 in Resources */,
 				E9A33FD92BFB614A0047F2EF /* Preview Assets.xcassets in Resources */,
+				E9A340022BFB63040047F2EF /* overpass-regular.otf in Resources */,
+				E9A3400B2BFB631D0047F2EF /* overpass-mono-semibold.otf in Resources */,
+				E9A33FF72BFB63040047F2EF /* overpass-heavy-italic.otf in Resources */,
+				E9C315F82C0336EA00D59318 /* questions.json in Resources */,
+				E9C315FC2C033DB200D59318 /* mouse-click-153941.mp3 in Resources */,
+				E9AA8F8A2BFCACE3009003E5 /* animation_wave_two.json in Resources */,
+				E9A33FFA2BFB63040047F2EF /* overpass-extralight.otf in Resources */,
+				E9A340002BFB63040047F2EF /* overpass-light-italic.otf in Resources */,
+				E9A340012BFB63040047F2EF /* overpass-extrabold-italic.otf in Resources */,
 				E9A33FD62BFB614A0047F2EF /* Assets.xcassets in Resources */,
+				E9C315F72C0336EA00D59318 /* language.json in Resources */,
+				E9AA8F7C2BFCA64E009003E5 /* Outfit-Black.ttf in Resources */,
+				E9AA8F7F2BFCA64E009003E5 /* Outfit-ExtraBold.ttf in Resources */,
+				E9A33FF52BFB63040047F2EF /* overpass-semibold.otf in Resources */,
+				E9A33FF62BFB63040047F2EF /* overpass-thin.otf in Resources */,
+				E9A340082BFB631D0047F2EF /* overpass-mono-bold.otf in Resources */,
+				E9AA8F7A2BFCA64E009003E5 /* Outfit-SemiBold.ttf in Resources */,
+				E9AA8F7E2BFCA64E009003E5 /* Outfit-Medium.ttf in Resources */,
+				E9A33FFB2BFB63040047F2EF /* overpass-bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +335,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E972073A2BFCF938004C450D /* Helper.swift in Sources */,
 				E9A33FD42BFB61480047F2EF /* ContentView.swift in Sources */,
+				E97207382BFCF7F3004C450D /* Language.swift in Sources */,
+				E97207362BFCF799004C450D /* LevelInfo.swift in Sources */,
+				E9B5906D2BFD8CC0003E29DB /* SentimentSoundModel.mlpackage in Sources */,
+				E9C315F42C03165F00D59318 /* GameViewModel.swift in Sources */,
+				E9C315FA2C033B2E00D59318 /* Constants.swift in Sources */,
 				E9A33FD22BFB61480047F2EF /* SpeakUpApp.swift in Sources */,
+				E972072A2BFCF676004C450D /* LanguageSelectView.swift in Sources */,
+				E972072E2BFCF68D004C450D /* LevelSelectView.swift in Sources */,
+				E9AA8F832BFCA7D8009003E5 /* LottieView.swift in Sources */,
+				E972072C2BFCF67F004C450D /* LevelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +485,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeakUp/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your speech via microphone usage will be use for allowing an question type in this game. Without it, the game couldn't be played.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "The speech recognition will be used for matching the qualifications of a question to yours.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -306,7 +515,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeakUp/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your speech via microphone usage will be use for allowing an question type in this game. Without it, the game couldn't be played.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "The speech recognition will be used for matching the qualifications of a question to yours.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -341,6 +553,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9A33FE02BFB61770047F2EF /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9A33FE12BFB61770047F2EF /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9A33FE02BFB61770047F2EF /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E9A33FC62BFB61480047F2EF /* Project object */;
 }

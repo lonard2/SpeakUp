@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "English",
+    "icon": "flag.fill",
+    "progress": "Not started yet..."
+  },
+    {
+    "id": 2,
+    "name": "Japanese",
+    "icon": "flag.fill",
+    "progress": "Coming soon"
+  },
+    {
+    "id": 3,
+    "name": "Korean",
+    "icon": "flag.fill",
+    "progress": "Coming soon"
+  },
+    {
+    "id": 4,
+    "name": "Chinese",
+    "icon": "flag.fill",
+    "progress": "Coming soon"
+  },
+    {
+    "id": 5,
+    "name": "French",
+    "icon": "flag.fill",
+    "progress": "Coming soon"
+  },
+    {
+    "id": 6,
+    "name": "Indonesian",
+    "icon": "flag.fill",
+    "progress": "Coming soon"
+  },
+    {
+    "id": 7,
+    "name": "German",
+    "icon": "flag.fill",
+    "progress": "Coming soon"
+  },
+    {
+    "id": 8,
+    "name": "Spanish",
+    "icon": "flag.fill",
+    "progress": "Coming soon"
+  },
+    {
+    "id": 9,
+    "name": "Hindi",
+    "icon": "flag.fill",
+    "progress": "Coming soon"
+  },
+    {
+    "id": 10,
+    "name": "Thai",
+    "icon": "flag.fill",
+    "progress": "Coming soon"
+  }
+]
