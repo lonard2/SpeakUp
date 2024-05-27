@@ -53,11 +53,11 @@ class Game: ObservableObject {
         
         var potentialQuestion = filteredQuestions.randomElement()!
         
-        while answeredQuestions.contains(potentialQuestion?.id) {
-            potentialQuestion = filteredQuestions.randomElement()!
-        }
-        
-        currentQuestion = potentialQuestion
+//        while answeredQuestions.contains(potentialQuestion?.id) {
+//            potentialQuestion = filteredQuestions.randomElement()!
+//        }
+//        
+//        currentQuestion = potentialQuestion
         
 //        questionScore = 5
     }
